@@ -79,11 +79,26 @@
 }
 .developmetn-title{
   text-align: center;
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
 }
 .development-description{
     text-align: center;
     width: 600px;
+    margin-top: 24px;
     margin-left: 340px;
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
 }
 /* common style -==================================*/
 .border{
@@ -139,7 +154,7 @@ background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 
     display: flex;
   
 position: static;
-width: 1300px;
+width: 1330px;
 height: 312px;
 /* Auto layout */
 display: flex;
@@ -223,5 +238,30 @@ text-align: left;
 
 }
 .coding-btn{
+    margin-top: 32px;
+    /* Frame 7 */
+position: static;
+width: 185px;
+height: 60px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 20px 12px 20px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 32px 0px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 500;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
 
 }
